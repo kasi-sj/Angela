@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Image Example</title>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH?pid=ImgDet&rs=1'); /* Replace with the URL of your online background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center; /* Center align the content within the body */
+        }
+        
+        #centered-image {
+            position: absolute;
+            top: 50%; /* Position the image vertically at the center */
+            left: 50%; /* Position the image horizontally at the center */
+            transform: translate(-50%, -50%); /* Center the image precisely */
+            z-index: 1; /* Ensure the image appears above the background */
+        }
+    </style>
+</head>
+<body>
+    <img height="100" id="centered-image" src="https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?cs=srgb&dl=bloom-blooming-blossom-462118.jpg&fm=jpg" alt="Centered Image">
+</body>
+</html>
